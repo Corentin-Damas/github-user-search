@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>GitHub user search app</title>
+  </head>
+  <body class="dark">
+    <main class="container">
+      <div class="container-box">
+        <header class="header">
+          <h1 class="header-1 dark">devfinder</h1>
+          <div class="luminosity-mode">
+            <h4 class="luminosity-text dark">Light</h4>
+            <svg class="icon icon-header dark">
+              <use xlink:href="icones/icon-sun.svg#sun"></use>
+            </svg>
+          </div>
+        </header>
+        <div class="search-bar dark">
+          <svg class="icon-search dark">
+            <use xlink:href="icones/icon-search.svg#search"></use>
+          </svg>
+          <form action="#" class="form">
+            <input
+              type="text"
+              class="form_input dark"
+              placeholder="Search GitHub username..."
+            />
+          </form>
+          <button class="btn-search dark">
+            <h3 class="btn-search-text">Search</h3>
+          </button>
+        </div>
+        <div class="result-box dark">
+          <div class="user-picture-container">
+            <div class="user-picture"></div>
+          </div>
+          <div class="user-generals">
+            <div class="user-name"><h1 class="dark">The Octocat</h1></div>
+            <div class="user-date">
+              <h4 class="dark">Joined 25 Jan 2011</h4>
+            </div>
+            <div class="user-subname"><h3>@Octocat</h3></div>
+          </div>
+          <div class="user-text">
+            <p class="dark">This profil has no bio.</p>
+          </div>
+          <div class="user-stats dark">
+            <div class="repos">
+              <div class="title-repo"><h4 class="dark">Repos</h4></div>
+              <div class="nb"><h1 class="dark nb-repository">8</h1></div>
+            </div>
+            <div class="followers">
+              <div class="title-follow"><h4 class="dark">Followers</h4></div>
+              <div class="nb"><h1 class="dark nb-follower">3995</h1></div>
+            </div>
+            <div class="Following">
+              <div class="title-following"><h4 class="dark">Following</h4></div>
+              <div class="nb"><h1 class="dark nb-following">10</h1></div>
+            </div>
+          </div>
+          <div class="user-socials">
+            <div class="social social-place">
+              <svg class="social-icon icon dark">
+                <use xlink:href="icones/icon-location.svg#location"></use>
+              </svg>
+              <p class="social-link dark">city name</p>
+            </div>
+            <div class="social social-twitter">
+              <svg class="social-icon icon dark">
+                <use xlink:href="icones/icon-twitter.svg#twitter"></use>
+              </svg>
+              <p class="social-link dark">page</p>
+            </div>
+            <div class="social social-website">
+              <svg class="social-icon icon dark">
+                <use xlink:href="icones/icon-website.svg#website"></use>
+              </svg>
+              <p class="social-link dark">random link</p>
+            </div>
+            <div class="social social-companie">
+              <svg class="social-icon icon dark">
+                <use xlink:href="icones/icon-company.svg#compagny"></use>
+              </svg>
+              <p class="social-link dark">Agrithub</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 
+    <svg class="icon">
+      <use xlink:href="icones/icon-company.svg#compagny"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-location.svg#location"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-moon.svg#moon"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-search.svg#search"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-sun.svg#sun"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-twitter.svg#twitter"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="icones/icon-website.svg#website"></use>
+    </svg>
+
+
+    devfinder Light Dark Search GitHub username... Search Joined Repos Followers
+    Following
+   -->
+  </body>
+  <script src="script.js"></script>
+</html>
