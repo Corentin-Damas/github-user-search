@@ -73,6 +73,25 @@ p {
   font-weight: 400;
 }
 
+a,
+a:link,
+a:visited,
+a:active {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-style: none;
+  color: var(--lm-C1-grey);
+  text-decoration: none;
+}
+
+a.dark,
+a.dark:link,
+a.dark:visited,
+a.dark:active {
+  color: var(--dm-C1-white)
+}
+
 h1.dark,
 h2.dark,
 h3.dark,
