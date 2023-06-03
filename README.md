@@ -5,7 +5,10 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 ### The challenge
 
 
-- My solution: [Add live site URL here](https://your-live-site-url.com)
+- My solution: https://corentin-damas.github.io/github-user-search/
+
+![image](https://github.com/Corentin-Damas/github-user-search/assets/100703359/0009e2c4-a88d-45cd-a178-014315234c70)
+
 
 Your users should be able to:
 
